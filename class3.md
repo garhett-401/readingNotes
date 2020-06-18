@@ -48,3 +48,9 @@ http://www.sqlcourse.com
 https://en.wikipedia.org/wiki/Object-relational_mapping
 
 https://blog.bitsrc.io/what-is-an-orm-and-why-you-should-use-it-b2b6f75f5e2a
+
+#### Other Resources
+https://dev.to/paulasantamaria/testing-node-js-mongoose-with-an-in-memory-database-32np
+
+https://cubettech.com/resources/blog/introduction-to-repository-design-pattern/
+

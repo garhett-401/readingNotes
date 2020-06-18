@@ -1,0 +1,6 @@
+How does this change the server’s role?
+
+index.js - The entry point of the application is the gate keeper to the outside world. It doesn't change the servers role in a sense. It DOES however "call" on the server to be activated. I use the analogy of playing a game. Some games don't actually access the internet right away until you decide to play "online multiplayer" in which the server will be called upon to connect
+server.js - This is the policeman standing out in the middle of a busy intersection directing traffic and telling cars where to go. Only, instead of a 4 way intersection, there are lots and lots of paths for cars to go down. We use server.js to take in requests from express and tell that request to move down the road to its handler.
+models/categories.js, etc - Data models define how the infromation that comes through the request gets molded in order to talk to the database. No action is actually made here but the routhandler sends the structure for how the data needs to look so that it can be stored
+routes/categories.js, etc - These take in requests from server.js and "handles" them. The route handler is responsible for how the request gets processed based off the methods that come attached. The routehandlers also call on the models to be able to both send a "response" back, AND send data to our databases.
