@@ -1,4 +1,4 @@
-## PURPOSE PRACTICE SHEET
+## PURPOSE SHEET
 
 ### Pinpoint my values
 
