@@ -27,3 +27,12 @@ That method runs in <Foo> … <Foo> passed it down to <Bar> essentially telling 
 ##### One Way Data flow
 
 State can only be passed from parent component to a child component through the use of props. This enforces the idea of one way data flow. One way data flow is a way of describing that state can only be passed down the component tree (not up). If a child wants to pass some data to a parent, the parent can pass a function to the child through props and the child may invoke that function and pass it data for the parent to manage.
+
+
+resources...
+
+[setState Explained](https://css-tricks.com/understanding-react-setstate/)
+[handling events](https://facebook.github.io/react/docs/handling-events.html)
+[forms](https://facebook.github.io/react/docs/forms.html)
+[state and lifecycle](https://facebook.github.io/react/docs/state-and-lifecycle.html)
+[components and props](https://facebook.github.io/react/docs/components-and-props.html)
